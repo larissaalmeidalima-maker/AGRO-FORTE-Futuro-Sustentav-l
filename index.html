@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>Equilíbrio entre produção agrícola e preservação ambiental</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#praticas">Práticas Sustentáveis</a></li>
+            <li><a href="#calculadora">Calculadora de Impacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Agro Forte</h2>
+            <p>
+                O Agro Forte promove uma agricultura produtiva e sustentável, garantindo alimentos para o futuro sem comprometer os recursos naturais. A inovação e o respeito ao meio ambiente caminham juntos para um planeta saudável.
+            </p>
+        </section>
+
+        <section id="praticas">
+            <h2>Práticas Sustentáveis</h2>
+            <ul>
+                <li>Uso eficiente da água e irrigação inteligente</li>
+                <li>Controle biológico de pragas e doenças</li>
+                <li>Adubação orgânica e rotação de culturas</li>
+                <li>Preservação de áreas de vegetação nativa</li>
+                <li>Redução de emissão de carbono na produção</li>
+            </ul>
+        </section>
+
+        <section id="calculadora">
+            <h2>Calculadora de Impacto Ambiental</h2>
+            <p>Informe os insumos utilizados e veja o impacto estimado:</p>
+            <label for="fertilizante">Fertilizante (kg/ano):</label>
+            <input type="number" id="fertilizante" min="0" value="0">
+            <label for="agua">Água (m³/ano):</label>
+            <input type="number" id="agua" min="0" value="0">
+            <label for="energia">Energia (kWh/ano):</label>
+            <input type="number" id="energia" min="0" value="0">
+            <button onclick="calcularImpacto()">Calcular Impacto</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

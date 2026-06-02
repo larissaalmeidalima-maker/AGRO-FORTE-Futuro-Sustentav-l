@@ -1,0 +1,109 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Navegação */
+nav {
+    background-color: #1b5e20;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+section h2 {
+    color: #2e7d32;
+    margin-bottom: 1rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Calculadora */
+input {
+    display: block;
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsividade */
+@media(max-width:600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
